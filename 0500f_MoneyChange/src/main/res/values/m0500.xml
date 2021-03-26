@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="m0500_t001">美元(US$)：</string>
+    <string name="hint">請輸入</string>
+    <string name="m0500_b001">執行匯率換算</string>
+    <string name="m0500_t002">台幣(NT$)：</string>
+    <string name="m0500_t003">0</string>
+<!--    <string name="id22">22 張惠珺</string>-->
+    <dimen name="padding_p001">15dp</dimen>
+    <dimen name="sm10dp">10dp</dimen>
+    <dimen name="testsize">24sp</dimen>
+</resources>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Silver"
+    android:orientation="vertical"
+    android:padding="@dimen/padding"
+    >
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_10">
+
+        <TextView
+            android:id="@+id/m0502_t001"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="@string/m0502_t001"
+            android:textSize="24sp" />
+
+        <RadioGroup
+            android:id="@+id/m0502_r001"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/Teal"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/m0502_r001_a"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:checked="true"
+                android:text="@string/m0502_r001a"
+                android:textSize="24sp" />
+
+            <RadioButton
+                android:id="@+id/m0502_r001_b"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/m0502_r001b"
+                android:textSize="24sp" />
+        </RadioGroup>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_10">
+
+        <TextView
+            android:id="@+id/m0502_t002"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:text="@string/m0502_t002"
+            android:textSize="24sp" />
+
+        <RadioGroup
+            android:id="@+id/m0502_r002"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/Aqua"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/m0502_r002a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/m0502_r002aa"
+                android:textSize="24sp" />
+
+            <RadioButton
+                android:id="@+id/m0502_r002b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/m0502_r002ab"
+                android:textSize="24sp" />
+
+            <RadioButton
+                android:id="@+id/m0502_r002c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/m0502_r002ac"
+                android:textSize="24sp" />
+        </RadioGroup>
+
+    </TableRow>
+
+    <Button
+        android:id="@+id/m0502_b001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/Yellow"
+        android:padding="@dimen/padding_10"
+        android:text="婚姻建議"
+        android:textColor="@color/Red"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/m0502_t003"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_10"
+        android:text="@string/m0502_t003"
+        android:textColor="@color/Red"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/m0500_f000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_10"
+        android:text="@string/m0502_f000"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/myname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/padding"
+        android:gravity="end"
+        android:padding="@dimen/padding_10"
+        android:text="@string/my_name"
+        android:textSize="24sp" />
+
+</LinearLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+
+
+
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/Black">
+
+        <Spinner
+            android:id="@+id/spnLocation"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_x="220dp"
+            android:layout_y="30dp"
+            android:alpha="0.7" />
+
+        <!--        <TextView-->
+<!--            android:id="@+id/txtOutput"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:alpha="0.6"-->
+<!--            android:background="#66cccccc"-->
+<!--            android:padding="3dp"-->
+<!--            android:text="@string/showlocid"-->
+<!--            android:textColor="@color/Teal"-->
+<!--            android:textColorLink="@color/Teal" />-->
+    </WebView>
+
+    <TextView
+        android:id="@+id/txtOutput"
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:alpha="125"
+        android:background="#66cccccc"
+        android:hint="@string/toutput"
+        android:padding="3dp"
+        android:text="@string/toutput"
+        android:textColor="@color/Teal"
+        android:textColorLink="@color/Teal" />
+
+    <Button
+        android:id="@+id/Navigation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/txtOutput"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:alpha="30"
+        android:onClick="bNavigationOn"
+        android:text="@string/tNavigation" />
+
+
+</RelativeLayout>
